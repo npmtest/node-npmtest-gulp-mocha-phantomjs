@@ -1,6 +1,6 @@
 # npmtest-gulp-mocha-phantomjs
 
-#### test coverage for  [gulp-mocha-phantomjs (v0.12.1)](https://github.com/mrhooray/gulp-mocha-phantomjs)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-mocha-phantomjs.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-mocha-phantomjs) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-mocha-phantomjs.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-mocha-phantomjs)
+#### basic test coverage for  [gulp-mocha-phantomjs (v0.12.1)](https://github.com/mrhooray/gulp-mocha-phantomjs)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-mocha-phantomjs.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-mocha-phantomjs) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-mocha-phantomjs.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-mocha-phantomjs)
 
 #### run client-side Mocha tests with PhantomJS
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-mocha-phantomjs/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-mocha-phantomjs/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-mocha-phantomjs/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-mocha-phantomjs/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-mocha-phantomjs/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-mocha-phantomjs/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gulp-mocha-phantomjs/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gulp-mocha-phantomjs/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-mocha-phantomjs/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-mocha-phantomjs/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-gulp-mocha-phantomjs/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-mocha-phantomjs/build/coverage.html/index.html)
 
@@ -92,7 +92,8 @@
     "scripts": {
         "test": "gulp test"
     },
-    "version": "0.12.1"
+    "version": "0.12.1",
+    "bin": {}
 }
 ```
 

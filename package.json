@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### test coverage for  [gulp-mocha-phantomjs (v0.12.1)](https://github.com/mrhooray/gulp-mocha-phantomjs)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-mocha-phantomjs.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-mocha-phantomjs) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-mocha-phantomjs.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-mocha-phantomjs)",
+    "description": "#### basic test coverage for  [gulp-mocha-phantomjs (v0.12.1)](https://github.com/mrhooray/gulp-mocha-phantomjs)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-mocha-phantomjs.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-mocha-phantomjs) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-mocha-phantomjs.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-mocha-phantomjs)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "gulp-mocha-phantomjs": "*",
@@ -36,5 +36,5 @@
         "start": "PORT=${PORT:-8080} utility2 start test.js",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "2017.4.27"
 }
